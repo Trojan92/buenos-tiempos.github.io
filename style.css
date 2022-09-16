@@ -62,9 +62,8 @@ nav li {
 /* Home */
 
 #home {
-    background-image: url("imagenes/home.jpg");
+    background-image: url("imagenes/home2.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     width: 900px;
     height: 467px;
@@ -146,4 +145,44 @@ nav li {
     padding-right: 15px;
     padding-left: 20px;
     font-weight: 600;
+}
+
+/* Ingredientes */
+
+#ing-container h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 50px 0 50px;
+    font-weight: bold;
+}
+
+#ing-container h3 {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0 5px 0;
+}
+
+.ingredientes {
+    margin-left: 70px;
+    float: left;
+    padding: 50px;
+}
+
+.ingredientes .foto {
+    background: #BF0404;
+}
+
+.ingredientes img {
+    width: 250px;
+    height: 320px;
+}
+
+.ingredientes .texto {
+    padding: 4px;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    background: #BF0404;
+    color: white;
 }
