@@ -18,7 +18,7 @@ nav {
     display: flex;
     background-color: white;
     padding: 4px 30px 0 30px;
-    box-shadow: 0 0 3px #D7D4D5;
+    box-shadow: 0 0 4px #D7D4D5;
     justify-content: center;
     align-items: center;
     font-weight: 600;
@@ -41,13 +41,12 @@ nav li {
     color: black;
     padding: 8px 0;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     transition: 0.4s ease;
 }
 
 .nav-bar a:hover {
     color: #989496;
-    cursor: pointer;
 }
 
 .logo-nav {
@@ -60,3 +59,91 @@ nav li {
     height: 100px;
 }
 
+/* Home */
+
+#home {
+    background-image: url("imagenes/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 900px;
+    height: 467px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+/* Shipping */
+
+.ship {
+    font-size: 15px;
+    padding: 20px;
+    width: 950px;
+    height: 70px;
+    background: #D1CCCC;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+.img-ppal {
+    padding-top: 50px;
+}
+
+.domicilio {
+   display: flex;
+   padding: 30px 0 100px 0;
+   margin-left: 490px;
+}
+
+.domicilio a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.domicilio a:hover {
+    color: #989496;
+}
+
+.domicilio img {
+    width: 48px;
+    height: 48px;
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+/* Bienvenidos */
+
+#bienvenidos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#bienvenidos h1 {
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+#bienvenidos p {
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 20px;
+    font-weight: 600;
+}
