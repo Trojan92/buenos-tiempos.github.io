@@ -162,6 +162,10 @@ nav li {
     padding: 10px 0 5px 0;
 }
 
+.div-ing {
+    padding-bottom: 100px;
+}
+
 .ingredientes {
     margin-left: 70px;
     float: left;
@@ -185,4 +189,86 @@ nav li {
     text-align: center;
     background: #BF0404;
     color: white;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    background: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.footer h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 45px;
+    padding-bottom: 80px;
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+    transition: 0.3s ease;
+}
+
+.redes img:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.logo-nav img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.pay img {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #000;
+    width: 60px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.copy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.copyright {
+    color: #000;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 8px 0;
 }
