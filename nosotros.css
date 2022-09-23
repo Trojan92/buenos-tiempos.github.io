@@ -59,108 +59,30 @@ nav li {
     height: 100px;
 }
 
-/* Shipping */
 
-.ship {
-    width: 100%;
-    height: 55px;
-    background: #D1CCCC;
-    margin-top: 50px;
-}
+/* Bienvenidos */
 
-.ship h2 {
-    font-size: 20px;
-    padding: 16px;
-    margin-left: 250px;
-}
-
-.img-ppal {
-    padding-top: 50px;
-}
-
-.domicilio {
-   display: flex;
-   padding: 30px 0 100px 0;
-   margin-left: 490px;
-}
-
-.domicilio a {
+#bienvenidos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 48px;
-    width: 300px;
-    font-size: 25px;
-    font-weight: 500;
-    color: black;
-    background: transparent;
-    text-decoration: none;
-    border-radius: 8px;
-    border: 2px solid black;
-    padding: 10px;
-    font-weight: 700;
-    letter-spacing: 2px;
+    text-align: center;
+    width: 80%;
+    padding: 100px 0 100px 270px;
 }
 
-.domicilio a:hover {
-    color: #989496;
+#bienvenidos h1 {
+    font-size: 60px;
+    padding: 0 40px 30px 40px;
 }
 
-.domicilio img {
-    width: 48px;
-    height: 48px;
-    margin-right: 5px;
-    padding: 4px;
-}
-
-/* Cervezas */
-
-.cervezas {
-    background: #fff;
-}
-.container h2 {
-    font-size: 50px;
-    text-transform: uppercase;
-    padding-left: 18px;
-    padding-bottom: 20px;
-}
-
-.galeria-beer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.beer {
-    width: 300px;
-    padding: 20px 0 20px 0;
-    background: #fff;
-}
-
-.imagen {
-    position: relative;
-    width: 300px;
-    height: 400px;
-}
-
-.imagen img {
-    width: 300px;
-    height: 400px;
-    object-fit: cover;
-}
-
-.beer h4 {
+#bienvenidos p {
     font-size: 20px;
-    font-weight: bolder;
-    padding-top: 10px;
-    text-transform: uppercase;
-}
-
-.beer p {
-    font-size: 15px;
-    font-weight: 700;
-    color: #434343;
-    padding-top: 8px;
+    padding-right: 15px;
+    padding-left: 20px;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 /* Footer */
