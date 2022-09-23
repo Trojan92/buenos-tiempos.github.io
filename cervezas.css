@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+
+body {  
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav */
+
+nav {
+    display: flex;
+    background-color: white;
+    padding: 4px 30px 0 30px;
+    box-shadow: 0 0 4px #D7D4D5;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.nav-bar a {
+    color: black;
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.4s ease;
+}
+
+.nav-bar a:hover {
+    color: #989496;
+}
+
+.logo-nav {
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+.logo-nav img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Shipping */
+
+.ship {
+    width: 100%;
+    height: 55px;
+    background: #D1CCCC;
+    margin-top: 50px;
+}
+
+.ship h2 {
+    font-size: 20px;
+    padding: 16px;
+    margin-left: 250px;
+}
+
+.img-ppal {
+    padding-top: 50px;
+}
+
+.domicilio {
+   display: flex;
+   padding: 30px 0 100px 0;
+   margin-left: 490px;
+}
+
+.domicilio a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.domicilio a:hover {
+    color: #989496;
+}
+
+.domicilio img {
+    width: 48px;
+    height: 48px;
+    margin-right: 5px;
+    padding: 4px;
+}
+
+/* Cervezas */
+
+.cervezas {
+    background: #fff;
+}
+
+.galeria-beer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagen {
+    width: 200px;
+    height: 300px;
+}
+
+.galeria-beer img {
+    width: 100px;
+    height: 200px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    background: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 45px;
+    padding-bottom: 80px;
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+    transition: 0.3s ease;
+}
+
+.redes img:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.logo-nav img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.pay img {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #000;
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.copy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.copyright {
+    color: #000;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 8px 0;
+}
