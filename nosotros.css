@@ -17,7 +17,7 @@ body {
 nav {
     display: flex;
     background-color: white;
-    padding: 4px 30px 0 30px;
+    padding: 4px 30px 5px 30px;
     box-shadow: 0 0 4px #D7D4D5;
     justify-content: center;
     align-items: center;
@@ -49,20 +49,45 @@ nav li {
     color: #989496;
 }
 
+/* Logo */
+
+.logo {
+    width: 260px;
+    height: 120px;
+}
+
 .logo-nav {
-    padding-left: 80px;
-    padding-right: 40px;
+    width: 260px;
+    height: 70px;
 }
 
 .logo-nav img {
-    width: 100px;
-    height: 100px;
+    width: 260px;
+    height: 70px;
+    object-fit: contain;
 }
 
+.logo-txt {
+    padding-top: 8px;
+}
 
-/* Bienvenidos */
+.logo-txt h4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
 
-#bienvenidos {
+.logo-txt h5 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+/* Nosotros */
+
+#nosotros {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,12 +97,12 @@ nav li {
     padding: 100px 0 100px 270px;
 }
 
-#bienvenidos h1 {
+#nosotros h1 {
     font-size: 60px;
     padding: 0 40px 30px 40px;
 }
 
-#bienvenidos p {
+#nosotros p {
     font-size: 20px;
     padding-right: 15px;
     padding-left: 20px;
@@ -122,14 +147,14 @@ nav li {
     opacity: 0.4;
 }
 
-.logo-nav {
+.logo-foot {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
+    margin-left: 10px;
 }
 
-.logo-nav img {
+.logo-foot img {
     width: 200px;
     height: 200px;
     padding: 20px;
@@ -164,4 +189,71 @@ nav li {
     font-size: 15px;
     font-weight: 800;
     padding: 8px 0;
+}
+
+@media screen and (max-width: 900px) {
+
+    /* Nav */
+
+    nav ul {
+        justify-content: center;
+        align-items: center;
+        padding-top: 8px;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 0 20px 10px 20px;
+    }
+    
+    nav li {
+        padding-left: 40px;
+    }
+    
+    .logo-nav img {
+        padding-top: 10px;
+    }
+
+    /* Nosotros */
+
+    #nosotros {
+        width: 90%;
+        padding: 100px 20px 100px 100px;
+        margin: 0;
+    }
+    
+    #nosotros p {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Nav */
+
+    nav li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Nosotros */
+
+    #nosotros {
+        width: 90%;
+        padding: 50px 10px 50px 50px;
+        margin: 0;
+    }
+    
+    #nosotros p {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* Footer */
+
+    .copy p {
+        text-align: center;
+        font-size: 14px;
+    }
 }

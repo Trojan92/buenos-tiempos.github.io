@@ -17,7 +17,7 @@ body {
 nav {
     display: flex;
     background-color: white;
-    padding: 4px 30px 0 30px;
+    padding: 4px 30px 5px 30px;
     box-shadow: 0 0 4px #D7D4D5;
     justify-content: center;
     align-items: center;
@@ -49,14 +49,40 @@ nav li {
     color: #989496;
 }
 
+/* Logo */
+
+.logo {
+    width: 260px;
+    height: 120px;
+}
+
 .logo-nav {
-    padding-left: 80px;
-    padding-right: 40px;
+    width: 260px;
+    height: 70px;
 }
 
 .logo-nav img {
-    width: 100px;
-    height: 100px;
+    width: 260px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.logo-txt {
+    padding-top: 8px;
+}
+
+.logo-txt h4 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.logo-txt h5 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
 }
 
 /* Shipping */
@@ -70,8 +96,8 @@ nav li {
 
 .ship h2 {
     font-size: 20px;
-    padding: 16px;
-    margin-left: 250px;
+    padding: 13px;
+    text-align: center;
 }
 
 .img-ppal {
@@ -81,7 +107,8 @@ nav li {
 .domicilio {
    display: flex;
    padding: 30px 0 100px 0;
-   margin-left: 490px;
+   justify-content: center;
+   align-items: center;
 }
 
 .domicilio a {
@@ -200,14 +227,14 @@ nav li {
     opacity: 0.4;
 }
 
-.logo-nav {
+.logo-foot {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
+    margin-left: 10px;
 }
 
-.logo-nav img {
+.logo-foot img {
     width: 200px;
     height: 200px;
     padding: 20px;
@@ -242,4 +269,58 @@ nav li {
     font-size: 15px;
     font-weight: 800;
     padding: 8px 0;
+}
+
+@media screen and (max-width: 900px) {
+
+    /* Nav */
+
+    nav ul {
+        justify-content: center;
+        align-items: center;
+        padding-top: 8px;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 0 20px 10px 20px;
+    }
+    
+    nav li {
+        padding-left: 40px;
+    }
+    
+    .logo-nav img {
+        padding-top: 10px;
+    }
+
+    /* Shipping */
+
+    .ship h2 {
+        font-size: 18px;
+        padding: 7px;
+        text-align: center;
+        margin-left: 0;
+    }
+     
+    .domicilio a {
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Nav */
+
+    nav li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Footer */
+
+    .copy p {
+        text-align: center;
+        font-size: 14px;
+    }
 }
